@@ -8,7 +8,7 @@ body {
         width: 100%;
         position: absolute;
         z-index: -1;}   
-#bodygyb { background-image: linear-gradient( 10px white, 10px black );}
+#bodygyb { background-image: linear-gradient( 10px white, 10px white);}
         /* header standar  */
     .header__fender{ 
         width: 100%;
@@ -224,6 +224,55 @@ body {
                     width: 100px;
                     border-radius: 50%;}
 /*contact */
+.footercontact {  
+    background-color: black;
+    padding: 3px;
+    height: 200px;
+    width: 100%;
+    display: flex;}
+    .section__footer{ 
+        height: 200px;
+        width: 100%;
+        padding-top: 15px;
+        display:flex;
+        justify-content:space-between;
+        align-items: center; }
+        .div1__footer{
+            height: 100px;
+            width: 200px;
+            display:flex;
+            justify-content:space-between;}
+            .fart1 {
+                height: 100px;
+                width: 100;
+                margin-left: 20px;               
+                display: flex;}
+                .img_footer {
+                    background-color: white;
+                    border-radius: 50%;}                                
+            .fart2{
+                margin-left: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;}
+                .a__footer{
+                    color:white;
+                    text-decoration: none;
+                    text-shadow: 1px 1px rgb(255, 255, 255);
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 25px;
+                    ;}
+        .div2__footer{  
+           
+            height: 100px;
+            width: 600px;
+            padding: 1px;
+            margin-right: 15px;
+            display: flex;
+            justify-content:space-between;}
+            .img__footer {
+                background-color: white;
+                border-radius: 50%;}  
 .form{
     background-color: black;
    padding:1px;
@@ -252,7 +301,8 @@ body {
       
     }
 
- /* resoluciones
+
+ 
 @media (min-width:768px) {
                         .section__grid{             
                             grid-template-columns: 200px 200px 200px;
@@ -328,4 +378,4 @@ body {
                                         .art3{
                                             margin-right: 2px;}         
     } 
- */
+ 
